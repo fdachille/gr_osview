@@ -5,6 +5,8 @@ A rough visual clone of the SGI gr_osview utility.
 
 ![Sample](gr_osview.gif)
 
+This is what it looked like on the SGI workstations: https://www.youtube.com/watch?v=HsL1Dfa5W8o
+
 ## Installation
 
 ### Linux

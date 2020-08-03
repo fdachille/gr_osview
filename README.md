@@ -1,7 +1,9 @@
 # gr_osview
 Graphical operating system view
 
-A clone of the SGI gr_osview utility.
+A rough visual clone of the SGI gr_osview utility.
+
+![Sample](gr_osview.gif)
 
 ## Installation
 

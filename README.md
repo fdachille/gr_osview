@@ -5,6 +5,7 @@ A clone of the SGI gr_osview utility.
 
 ## Installation
 
+### Linux
 Install Python 3 and TCL/TK toolkit:
 ```
 sudo apt-get update

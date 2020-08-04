@@ -14,13 +14,6 @@ class Bar:
     self.size = size
     self.color = color
     self.text_width = text_width
-  
-  def modulate(self):
-    self.size += random.randrange(-100, 100) / 50.0
-    if self.size < 0.1:
-      self.size = 0.1
-    if self.size > 30172872:
-      self.size = 30172872
 
 class Graph:
   def __init__(self):
@@ -34,7 +27,6 @@ class Graph:
   
   def modulate(self, usages):
     for bar in self.bars:
-      # bar.modulate()
       value = usages.get(bar.name)
       if value:
         bar.size = value

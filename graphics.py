@@ -569,6 +569,9 @@ class Point(GraphicsObject):
         other = Point(self.x,self.y)
         other.config = self.config.copy()
         return other
+    
+    def plus(self, other):
+      return Point(self.x + other.getX(), self.y + other.getY())
                 
     def getX(self): return self.x
     def getY(self): return self.y

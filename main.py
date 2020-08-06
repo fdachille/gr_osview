@@ -34,7 +34,7 @@ class Graph:
     if usage:
       for bar in self.bars:
         value = usage.get(bar.name)
-        if value:
+        if value is not None:
           bar.bar_size = value
 
   def shrink_area(self, area):
